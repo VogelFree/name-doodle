@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{618E711B-940F-48EF-92B2-0BBE93DD74E9}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Collect.Domain", "Collect.Domain\Collect.Domain.fsproj", "{F472452A-F0F9-4E26-A93E-8DAF688694BC}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Collect.Domain", "src\Collect.Domain\Collect.Domain.fsproj", "{F472452A-F0F9-4E26-A93E-8DAF688694BC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{537B67CE-B86C-4AE2-BF6E-EBABD83A862C}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Collect.Domain.Test", "test\Collect.Domain.Test\Collect.Domain.Test.fsproj", "{3F06147A-4BB2-48FC-BC32-D543C319D7E3}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Collect.Domain.Test", "Collect.Domain.Test\Collect.Domain.Test.fsproj", "{3F06147A-4BB2-48FC-BC32-D543C319D7E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
