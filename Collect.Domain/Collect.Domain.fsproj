@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="SaveNames.PublicTypes.fs" />
-    <Compile Include="SaveNames.Implementation.fs" />
+    <Compile Include="src/SaveNames.PublicTypes.fs" />
+    <Compile Include="src/SaveNames.Implementation.fs" />
   </ItemGroup>
 
 </Project>
