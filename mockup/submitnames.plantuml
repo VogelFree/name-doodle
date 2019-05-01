@@ -1,0 +1,15 @@
+@startsalt Submitname MockUp
+{
+    {^"Publisher"
+     Name:  | "                       My Name"
+     Email: | "                My.Name@web.de"
+    }
+
+    {^"Names"
+     { Name:  | "        My Name" | Gender: | ^Male^ | [X] }
+     [  Add                             ]
+    }
+
+    [  Submit                           ]
+}
+@endsalt
