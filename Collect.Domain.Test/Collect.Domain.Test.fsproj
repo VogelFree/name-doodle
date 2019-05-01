@@ -1,19 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-
-    <IsPackable>false</IsPackable>
   </PropertyGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="../Collect.Domain/Collect.Domain.fsproj">
+      <Name>Collect.Domain.fsproj</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src/TestEmailAddress.fs" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="nunit" Version="3.11.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\Collect.Domain\Collect.Domain.fsproj" />
-  </ItemGroup>
-
 </Project>

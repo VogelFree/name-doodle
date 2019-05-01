@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="src/SaveNames.PublicTypes.fs" />
-    <Compile Include="src/SaveNames.Implementation.fs" />
+    <Compile Include="src/EmailAddress.fs" />
   </ItemGroup>
 
 </Project>
