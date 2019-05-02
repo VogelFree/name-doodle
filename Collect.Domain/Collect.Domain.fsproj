@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Compile Include="src/EmailAddress.fs" />
+    <Compile Include="src/PublisherInfo.fs" />
   </ItemGroup>
 
 </Project>
