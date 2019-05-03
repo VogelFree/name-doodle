@@ -10,6 +10,7 @@
   <ItemGroup>
     <Compile Include="src/TestEmailAddress.fs" />
     <Compile Include="src/TestPublisherInfo.fs" />
+    <Compile Include="src/TestName.fs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="nunit" Version="3.11.0" />
