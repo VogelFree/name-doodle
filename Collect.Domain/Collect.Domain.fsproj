@@ -8,6 +8,7 @@
     <Compile Include="src/EmailAddress.fs" />
     <Compile Include="src/Name.fs" />
     <Compile Include="src/PublisherInfo.fs" />
+    <Compile Include="src/SubmitNamesWorkflow.fs" />
   </ItemGroup>
 
 </Project>
