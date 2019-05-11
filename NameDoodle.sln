@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{943FFF4B-F
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Collect.Domain.Test", "test\Collect.Domain.Test\Collect.Domain.Test.fsproj", "{10CA7549-3C21-48A5-B572-2A61E7C6547B}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Collect.Api.Suave", "src\Collect.Api.Suave\Collect.Api.Suave.fsproj", "{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,9 +50,22 @@ Global
 		{10CA7549-3C21-48A5-B572-2A61E7C6547B}.Release|x64.Build.0 = Release|Any CPU
 		{10CA7549-3C21-48A5-B572-2A61E7C6547B}.Release|x86.ActiveCfg = Release|Any CPU
 		{10CA7549-3C21-48A5-B572-2A61E7C6547B}.Release|x86.Build.0 = Release|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Release|x64.Build.0 = Release|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{024DC424-C1C9-4791-9D24-9E35304AF222} = {EFC11CA1-1906-45FB-85F6-A18F39DC4A28}
 		{10CA7549-3C21-48A5-B572-2A61E7C6547B} = {943FFF4B-F6E1-412F-885E-C34FD1DD1832}
+		{ACCF1B3D-DCDE-4061-8E09-C8D41D18F3CE} = {EFC11CA1-1906-45FB-85F6-A18F39DC4A28}
 	EndGlobalSection
 EndGlobal
